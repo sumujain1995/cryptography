@@ -81,6 +81,7 @@ class PKCS7SignatureBuilder:
         if not isinstance(
             hash_algorithm,
             (
+                hashes.SHA1,
                 hashes.SHA224,
                 hashes.SHA256,
                 hashes.SHA384,
